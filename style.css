@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', cursive;
+    color: black;
+    /* background-color: #5F6F52; */
+    
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+#header{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.inputCity {
+    background-color: #FEFAE0;
+    color: #460C68;
+    border-radius: 2em;
+    padding: .5em;
+    text-align: center;
+    border-style: none;
+}
+.inputCity2 {
+    border-radius: 2em;
+    padding: .5em;
+    text-align: center;
+    border-style: none;
+}
+.cityButton {
+    background-color: #DFFFD8;
+    border-radius: 2em;
+    padding: 1em;
+    text-align: center;
+    border-style: none;
+}
+
+.cityButton:hover{
+
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+
+#container {
+    border-radius: 2em;
+    border-color: #ECA869;
+    border-style: solid;
+    display: flex;
+    padding: 1em;
+}
+
+#container > div {
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 2em;
+    border-color: #AEE2FF;
+}
+
+.icons {
+    border-radius: 1em;
+    display: inline-block;
+    padding: .6em;
+}
+.end {
+    margin-top: 240px;
+    border-radius: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.last-text p {
+    color: black;
+    font-size: 14px;
+    border-radius: 2em;
+}
